@@ -7,7 +7,7 @@
         android:id="@+id/pic_img"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:src="@drawable/back" />
+        />
 
     <TextView
         android:id="@+id/pic_name"
@@ -15,7 +15,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/pic_img"
-        android:text="背景图"
         android:textSize="18sp" />
 
     <TextView
@@ -24,7 +23,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/pic_img"
-        android:text="花"
         android:layout_alignBottom="@+id/pic_img"
         android:textSize="16sp" />
 </RelativeLayout>
